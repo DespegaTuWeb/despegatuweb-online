@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puro Fierro | El Gym de Campoy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .bg-gym { background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1470'); background-size: cover; background-position: center; }
+    </style>
+</head>
+<body class="bg-white text-slate-900 scroll-smooth">
+
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="font-black text-2xl tracking-tighter uppercase italic">
+                PURO<span class="text-blue-600">FIERRO</span>
+            </div>
+            <div class="hidden md:flex gap-8 font-bold text-[10px] uppercase tracking-widest text-slate-400">
+                <a href="#inicio" class="hover:text-blue-600 transition">Inicio</a>
+                <a href="#sedes" class="hover:text-blue-600 transition">Sedes</a>
+                <a href="#coach" class="hover:text-blue-600 transition">Coach</a>
+                <a href="#suplementos" class="hover:text-blue-600 transition">Tienda</a>
+            </div>
+            <a href="https://wa.me/51902175827" class="bg-blue-600 text-white px-6 py-3 rounded-xl font-bold text-xs uppercase hover:bg-blue-700 transition">
+                Escríbenos
+            </a>
+        </div>
+    </nav>
+
+   <section id="inicio" class="bg-gym min-h-[60vh] flex items-center text-white px-6 py-12">
+    <div class="max-w-7xl mx-auto w-full">
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+            
+            <div class="lg:w-3/5 space-y-6">
+                <span class="bg-blue-600 text-white px-4 py-1 rounded-md font-black uppercase tracking-[0.3em] text-[10px] italic inline-block">
+                    Tu Gym de Barrio en Campoy
+                </span>
+                <h1 class="text-5xl md:text-7xl font-black italic uppercase tracking-tighter leading-[0.85]">
+                    PURO FIERRO:<br>
+                    <span class="text-blue-500 text-3xl md:text-5xl">TU LUGAR, TU GENTE, TUS METAS</span>
+                </h1>
+                <p class="text-slate-300 max-w-lg text-lg leading-relaxed font-medium italic">
+                    Libertad total para entrenar. Trae tus ganas, que aquí ponemos el fierro y la comunidad pone el empuje. <span class="text-white font-bold">¡Tu segunda casa te espera!!!</span>
+                </p>
+                
+            </div>
+
+            <div class="lg:w-2/5 grid gap-4 w-full">
+                <div class="bg-white/10 backdrop-blur-md border border-white/10 p-5 rounded-2xl hover:bg-white/20 transition group">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-blue-600 p-3 rounded-xl shadow-lg shadow-blue-900/50">
+                            <i class="fas fa-fist-raised text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-lg font-black uppercase italic text-blue-400">Entreno Libre</p>
+                            <p class="text-xs text-slate-300 font-medium">Nadie te molesta, tú mandas en tu rutina y en tu tiempo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md border border-white/10 p-5 rounded-2xl hover:bg-white/20 transition group">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-blue-600 p-3 rounded-xl shadow-lg shadow-blue-900/50">
+                            <i class="fas fa-users text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-lg font-black uppercase italic text-blue-400">Ayuda entre patas</p>
+                            <p class="text-xs text-slate-300 font-medium">Siempre habrá alguien que te cuide en la última repe. Aquí somos familia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md border border-white/10 p-5 rounded-2xl hover:bg-white/20 transition group border-blue-500/30">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-slate-800 p-3 rounded-xl">
+                            <i class="fas fa-star text-yellow-400 text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-lg font-black uppercase italic text-white">Asesoría Opcional</p>
+                            <p class="text-xs text-slate-300 font-medium italic">Sube de nivel con el Coach Victor cuando estés listo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="sedes" class="py-20 px-6 bg-slate-50">
+    <div class="max-w-7xl mx-auto">
+        <h2 class="text-4xl font-black uppercase italic mb-12 tracking-tighter text-slate-900">
+            Cerca de ti
+        </h2>
+        
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+            
+            <div class="bg-white rounded-[2.5rem] overflow-hidden border border-slate-200 shadow-sm hover:shadow-2xl transition-all duration-500 group">
+                <div class="h-[500px] overflow-hidden bg-slate-200 relative">
+                    <img 
+                        src="/imgs/Sede1.png" 
+                        alt="Sede Malecón Checa" 
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                    
+                    <div class="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-black/20 to-transparent"></div>
+                </div>
+                
+                <div class="p-10">
+                    <h3 class="text-3xl font-black uppercase text-slate-900 italic mb-4 tracking-tighter">
+                        Sede Malecón Checa
+                    </h3>
+                    <div class="flex items-start gap-4">
+                        <div class="bg-blue-600 p-3 rounded-2xl shadow-lg shadow-blue-200">
+                            <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-xl mb-1 italic text-slate-800 leading-none">
+                                Av. Malecón Checa 3776
+                            </p>
+                            <p class="text-slate-500 text-sm italic font-medium mt-2">
+                                Al costado de I.E. Benjamin Franklin
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-[2.5rem] overflow-hidden border border-slate-200 shadow-sm hover:shadow-2xl transition-all duration-500 group">
+                <div class="h-[500px] overflow-hidden bg-slate-200 relative">
+                    <img 
+                        src="/imgs/Sede2.png" 
+                        alt="Sede Próceres" 
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                  
+                    <div class="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-black/20 to-transparent"></div>
+                </div>
+                
+                <div class="p-10">
+                    <h3 class="text-3xl font-black uppercase text-slate-900 italic mb-4 tracking-tighter">
+                        Sede Próceres
+                    </h3>
+                    <div class="flex items-start gap-4">
+                        <div class="bg-blue-600 p-3 rounded-2xl shadow-lg shadow-blue-200">
+                            <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-xl mb-1 italic text-slate-800 leading-none">
+                                Av. Próceres M 20
+                            </p>
+                            <p class="text-slate-500 text-sm italic font-medium mt-2">
+                                A media cuadra de I.E. Solidaridad III
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-slate-900 rounded-[2.5rem] p-8 md:p-12 text-white relative overflow-hidden shadow-2xl border border-white/5">
+            <div class="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
+                <i class="fas fa-clock text-[15rem] -rotate-12"></i>
+            </div>
+            
+            <div class="relative z-10 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-10">
+                <div class="space-y-8 flex-grow">
+                    <div class="inline-block border-b-2 border-blue-500 pb-2">
+                        <h4 class="font-black italic uppercase text-blue-400 tracking-[0.2em] text-sm">
+                            Horario de atención
+                        </h4>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
+                        <div class="space-y-4">
+                            <p class="text-[10px] font-black uppercase text-slate-500 tracking-[0.3em] italic">
+                                Lunes a Viernes
+                            </p>
+                            <div class="flex items-center gap-6">
+                                <div>
+                                    <p class="text-[9px] uppercase font-bold text-blue-500/60 mb-1">Mañana</p>
+                                    <p class="text-2xl font-black italic tracking-tight">06:00 AM <br>12:00 PM</p>
+                                </div>
+                                <div class="h-8 w-px bg-white/10"></div>
+                                <div>
+                                    <p class="text-[9px] uppercase font-bold text-blue-500/60 mb-1">Tarde / Noche</p>
+                                    <p class="text-2xl font-black italic tracking-tight text-blue-500">04:00 PM   <br> 11:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <p class="text-[10px] font-black uppercase text-slate-500 tracking-[0.3em] italic">
+                                Sábados
+                            </p>
+                            <div class="flex items-center gap-6">
+                                <div>
+                                    <p class="text-[9px] uppercase font-bold text-blue-500/60 mb-1">Mañana</p>
+                                    <p class="text-2xl font-black italic tracking-tight">06:00 AM  12:00 PM</p>
+                                </div>
+                                <div class="h-8 w-px bg-white/10"></div>
+                                <div>
+                                    <p class="text-[9px] uppercase font-bold text-blue-500/60 mb-1">Tarde</p>
+                                    <p class="text-2xl font-black italic tracking-tight text-blue-500">04:00 PM  09:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-auto">
+                    <a 
+                        href="https://wa.me/51902175827" 
+                        class="block text-center bg-white text-slate-900 font-black px-10 py-5 rounded-2xl uppercase text-xs tracking-widest hover:bg-blue-600 hover:text-white transition-all duration-300 shadow-xl shadow-black/20"
+                    >
+                        ¿Tienes dudas? Escríbenos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+
+    <section id="instalaciones" class="py-20 px-6 bg-slate-950 text-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-black uppercase italic tracking-tighter mb-12 text-center md:text-left italic">Equipamiento Real</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="p-8 border border-white/10 rounded-3xl bg-white/5 hover:border-blue-500 transition">
+                    <h3 class="font-black uppercase italic text-blue-500 mb-3 text-xl">Pesos Libres</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed italic">"Zona de guerra. Barras que pesan de verdad y mancuernas para los que vienen a mover kilos en serio. Aquí se entrena básico y pesado."</p>
+                </div>
+                <div class="p-8 border border-white/10 rounded-3xl bg-white/5 hover:border-blue-500 transition">
+                    <h3 class="font-black uppercase italic text-blue-500 mb-3 text-xl">Máquinas Hammer</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed italic">"Siente la tensión real. Equipamiento diseñado para destruir el músculo, no tu bolsillo. Tecnología de fuerza para resultados de verdad."</p>
+                </div>
+                <div class="p-8 border border-white/10 rounded-3xl bg-white/5 hover:border-blue-500 transition">
+                    <h3 class="font-black uppercase italic text-blue-500 mb-3 text-xl">Lockers Gratis</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed italic">"Tus cosas seguras mientras tú te enfocas en lo importante: romper tus récords personales."</p>
+                </div>
+                <div class="p-8 border border-white/10 rounded-3xl bg-white/5 hover:border-blue-500 transition">
+                    <h3 class="font-black uppercase italic text-blue-500 mb-3 text-xl">Tienda de Suples</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed italic">"Lo que te falta para explotar. X-B y suplementos de confianza para que tu recuperación sea tan dura como tu entreno."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <section id="coach" class="py-24 px-6 bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col lg:flex-row items-center gap-16">
+            
+            <div class="lg:w-1/2 relative">
+                <div class="absolute -top-10 -left-10 w-64 h-64 bg-blue-100 rounded-full blur-3xl opacity-50"></div>
+                
+                <div class="relative rounded-[3rem] overflow-hidden border-[12px] border-slate-50 shadow-2xl">
+                    <img 
+                        src="/imgs/victor.png" 
+                        alt="Coach Victor Ballena" 
+                        class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
+                    >
+                    
+                    <div class="absolute bottom-8 left-8 right-8">
+                        <div class="bg-slate-900/90 backdrop-blur-md p-6 rounded-2xl border border-white/10 shadow-xl">
+                            <div class="flex items-center gap-4">
+                                <div class="bg-white p-2 rounded-lg">
+                                    <i class="fab fa-tiktok text-slate-900 text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-[10px] font-black uppercase tracking-widest text-blue-400">Síguelo en redes</p>
+                                    <p class="text-white font-black italic">@coachballena</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-1/2 space-y-8">
+                <div class="space-y-4">
+                    <span class="text-blue-600 font-black uppercase tracking-[0.3em] text-xs italic">Liderazgo y Experiencia</span>
+                    <h2 class="text-5xl md:text-6xl font-black uppercase italic tracking-tighter leading-[0.9] text-slate-900">
+                        ENTRENA CON EL<br>
+                        <span class="text-blue-600 font-black">COACH VICTOR</span>
+                    </h2>
+                </div>
+
+                <p class="text-slate-600 text-lg font-medium leading-relaxed italic border-l-4 border-blue-600 pl-6">
+                    "Mi meta no es solo que levantes más peso, sino que aprendas a dominar el fierro con técnica real." 
+                </p>
+
+                <div class="space-y-6">
+                    <p class="text-slate-500 leading-relaxed">
+                        Victor no es solo el dueño, es un preparador con años de experiencia ayudando a la gente de Campoy a transformar su físico. Si bien en <strong class="text-slate-900 font-bold italic">Puro Fierro</strong> promovemos el entreno libre, Victor está disponible para llevarte al siguiente nivel.
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-100">
+                            <i class="fas fa-check-circle text-blue-600"></i>
+                            <span class="font-bold text-sm uppercase italic text-slate-700">Técnica Correcta</span>
+                        </div>
+                        <div class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-100">
+                            <i class="fas fa-check-circle text-blue-600"></i>
+                            <span class="font-bold text-sm uppercase italic text-slate-700">Transformación Total</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-blue-600 p-8 rounded-[2rem] text-white shadow-xl shadow-blue-200 relative overflow-hidden group">
+                    <div class="relative z-10">
+                        <h4 class="text-xl font-black uppercase italic mb-2">¿Buscas Asesoría Personalizada?</h4>
+                        <p class="text-blue-100 text-sm mb-6 font-medium leading-relaxed">
+                            Si quieres un plan de entrenamiento y nutrición a medida, coordina directamente con Victor una asesoría exclusiva.
+                        </p>
+                        <a 
+                            href="https://wa.me/51902175827?text=Hola%20Coach%20Victor,%20deseo%20información%20sobre%20la%20asesoría%20personalizada" 
+                            class="inline-block bg-white text-blue-600 font-black px-8 py-4 rounded-xl uppercase text-xs tracking-widest hover:bg-slate-900 hover:text-white transition-all duration-300 shadow-lg"
+                        >
+                            Consultar con el Coach
+                        </a>
+                    </div>
+                    <i class="fas fa-dumbbell absolute -bottom-4 -right-4 text-8xl text-blue-500/50 -rotate-12 group-hover:rotate-0 transition-transform duration-500"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+   <section id="suplementos" class="py-20 px-6 bg-white">
+    <div class="max-w-7xl mx-auto">
+        <h2 class="text-4xl font-black uppercase italic mb-12 tracking-tighter">Tienda de Suplementos</h2>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            
+            <div class="bg-[#f8fafc] border border-slate-100 rounded-[2rem] overflow-hidden flex flex-col transition-all hover:shadow-2xl group">
+                <div class="w-full h-52 overflow-hidden">
+                    <img src="imgs/proteinas.png" alt="Whey Protein" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                
+                <div class="p-10 flex flex-col items-center text-center">
+                    <h4 class="font-black uppercase italic text-2xl mb-3 tracking-tighter text-[#0f172a]">Proteina Whey</h4>
+                    <p class="text-[13px] text-slate-500 font-medium italic mb-10 leading-relaxed">Múltiples marcas disponibles para tu recuperación.</p>
+                    
+                    <a href="https://wa.me/51902175827?text=Consulta%20Stock%20Proteina" 
+                       class="bg-[#0f172a] text-white w-full py-5 rounded-2xl font-black text-xs uppercase tracking-[0.15em] hover:bg-blue-600 transition-colors">
+                        Consultar Stock
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-[#f8fafc] border border-slate-100 rounded-[2rem] overflow-hidden flex flex-col transition-all hover:shadow-2xl group">
+                <div class="w-full h-52 overflow-hidden">
+                    <img src="imgs/creatine.png" alt="Creatina" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                
+                <div class="p-10 flex flex-col items-center text-center">
+                    <h4 class="font-black uppercase italic text-2xl mb-3 tracking-tighter text-[#0f172a]">Creatina</h4>
+                    <p class="text-[13px] text-slate-500 font-medium italic mb-10 leading-relaxed">Monohidratada para aumentar tu fuerza y potencia muscular.</p>
+                    
+                    <a href="https://wa.me/51902175827?text=Consulta%20Stock%20Creatina" 
+                       class="bg-[#0f172a] text-white w-full py-5 rounded-2xl font-black text-xs uppercase tracking-[0.15em] hover:bg-blue-600 transition-colors">
+                        Consultar Stock
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white border-2 border-blue-500 rounded-[2rem] overflow-hidden flex flex-col transition-all hover:shadow-2xl shadow-blue-50 group relative">
+                <div class="absolute top-4 right-4 z-10 bg-blue-600 text-white text-[10px] font-black px-3 py-1 rounded-full uppercase italic tracking-widest">
+                    Top Ventas
+                </div>
+
+                <div class="w-full h-52 overflow-hidden bg-slate-100">
+                    <img src="imgs/energizante.png" alt="X-B Energizante" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                
+                <div class="p-10 flex flex-col items-center text-center">
+                    <h4 class="font-black uppercase italic text-2xl mb-1 tracking-tighter text-blue-600">X-B Energizante</h4>
+                    <p class="text-[10px] text-blue-400 font-black mb-4 uppercase tracking-[0.2em]">Universe Nutrition</p>
+                    <p class="text-[13px] text-slate-500 font-medium italic mb-10 leading-relaxed">Máxima energía para tus entrenamientos más intensos.</p>
+                    
+                    <a href="https://wa.me/51902175827?text=Consulta%20Stock%20XB" 
+                       class="bg-blue-600 text-white w-full py-5 rounded-2xl font-black text-xs uppercase tracking-[0.15em] hover:bg-[#0f172a] transition-colors">
+                        Consultar Stock
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+    <footer class="bg-white border-t border-slate-100 py-10 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div>
+                <div class="font-black text-2xl tracking-tighter uppercase italic">
+                    PURO<span class="text-blue-600">FIERRO</span>
+                </div>
+                <p class="text-slate-400 text-[10px] font-bold uppercase tracking-widest mt-2 italic">El gym de barrio en Campoy</p>
+            </div>
+            <div class="text-center md:text-right">
+                <p class="text-[10px] font-black uppercase tracking-widest text-slate-300 italic mb-2">Contacto Directo</p>
+                <p class="text-sm font-black italic">WhatsApp: 902 175 827</p>
+                <p class="text-[10px] text-slate-400 mt-2 font-bold uppercase">Av. Malecón Checa 3776 | Av. Próceres M 20</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/51902175827" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white w-14 h-14 rounded-2xl flex items-center justify-center shadow-2xl z-50 hover:scale-105 transition">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+</body>
+</html>
